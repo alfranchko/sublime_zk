@@ -8,7 +8,7 @@
     "double_brackets": true,
 
     // links like "[[199901012359]] and note title" instead of "[[199901012359]]"
-    "insert_links_with_titles": false,
+    "insert_links_with_titles": true,
 
     // when creating a new note, put id into title?
      // false to disable
@@ -81,4 +81,6 @@
 
     // set to true to enable super awesome zettelkasten mode
     "zettelkasten_mode" : true,
+
+    "new_note_template": "# {title}\n\n**id**: {id}\\\n**created_at**: {timestamp: %Y-%m-%d %H:%M}\\\n**tags**: \n\n---\n\n\n---\n**questions**:\n\n**sources**:\n\n**preview**:\n\n**next**:\n\n",
 }
